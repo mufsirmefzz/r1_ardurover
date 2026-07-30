@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000209] (-) JobUnselected: {'identifier': 'hybrid_navigation'}
+[0.000259] (ardurover_hitl) JobQueued: {'identifier': 'ardurover_hitl', 'dependencies': OrderedDict()}
+[0.000350] (ardurover_hitl) JobStarted: {'identifier': 'ardurover_hitl'}
+[0.098726] (-) TimerEvent: {}
+[0.199163] (-) TimerEvent: {}
+[0.299978] (-) TimerEvent: {}
+[0.400386] (-) TimerEvent: {}
+[0.500675] (-) TimerEvent: {}
+[0.600905] (-) TimerEvent: {}
+[0.701168] (-) TimerEvent: {}
+[0.801505] (-) TimerEvent: {}
+[0.901893] (-) TimerEvent: {}
+[1.002121] (-) TimerEvent: {}
+[1.102332] (-) TimerEvent: {}
+[1.202501] (-) TimerEvent: {}
+[1.302678] (-) TimerEvent: {}
+[1.402892] (-) TimerEvent: {}
+[1.503109] (-) TimerEvent: {}
+[1.603330] (-) TimerEvent: {}
+[1.703513] (-) TimerEvent: {}
+[1.803697] (-) TimerEvent: {}
+[1.903916] (-) TimerEvent: {}
+[2.004136] (-) TimerEvent: {}
+[2.104398] (-) TimerEvent: {}
+[2.204590] (-) TimerEvent: {}
+[2.304835] (-) TimerEvent: {}
+[2.405054] (-) TimerEvent: {}
+[2.505317] (-) TimerEvent: {}
+[2.605525] (-) TimerEvent: {}
+[2.703064] (ardurover_hitl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/build', '--no-deps', 'symlink_data'], 'cwd': '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl', 'env': {'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/mufsir/ardupilot_gazebo/build:', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/mufsir', 'GZ_SIM_RESOURCE_PATH': '/home/mufsir/ardupilot_gazebo/models:/home/mufsir/ardupilot_gazebo/worlds:', 'LANGUAGE': 'en_IN:en', 'USER': 'mufsir', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:', 'HOME': '/home/mufsir', 'CHROME_DESKTOP': 'antigravity.desktop', 'OLDPWD': '/home/mufsir/Mufsir/IISC/ardurover_ws', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-2066da42-1.10-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '1339', 'SYSTEMD_EXEC_PID': '2203', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5940', 'COLCON_PREFIX_PATH': '/home/mufsir/gps_nav_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'mufsir', 'JOURNAL_STREAM': '8:7820', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mufsir', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'ANTIGRAVITY_EDITOR_APP_ROOT': '/usr/share/antigravity/resources/app', 'PATH': '/usr/lib/ccache:/home/mufsir/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/mufsir/.local/bin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/lib/ccache:/home/mufsir/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/mufsir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mufsir-Predator-PH315-51:@/tmp/.ICE-unix/2176,unix/mufsir-Predator-PH315-51:/tmp/.ICE-unix/2176', 'INVOCATION_ID': '1a29ea2c016644e2951a52ba3cd6cce2', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': '', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mufsir/gps_nav_ws/install/gps_nav_sensors:/home/mufsir/gps_nav_ws/install/gps_nav_description:/home/mufsir/gps_nav_ws/install/gps_nav_control:/home/mufsir/gps_nav_ws/install/gps_nav_bringup:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'ANTIGRAVITY_TRAJECTORY_ID': 'ca4ff64b-3f99-47fe-ad78-61f66eeb01ad', 'PWD': '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/mufsir/.config/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/mufsir/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages:/home/mufsir/gps_nav_ws/install/gps_nav_sensors/lib/python3.10/site-packages:/home/mufsir/gps_nav_ws/install/gps_nav_description/lib/python3.10/site-packages:/home/mufsir/gps_nav_ws/install/gps_nav_control/lib/python3.10/site-packages:/home/mufsir/gps_nav_ws/install/gps_nav_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VSCODE_PID': '5940'}, 'shell': False}
+[2.706536] (-) TimerEvent: {}
+[2.806694] (-) TimerEvent: {}
+[2.906908] (-) TimerEvent: {}
+[3.007123] (-) TimerEvent: {}
+[3.107338] (-) TimerEvent: {}
+[3.207544] (-) TimerEvent: {}
+[3.307797] (-) TimerEvent: {}
+[3.408011] (-) TimerEvent: {}
+[3.508227] (-) TimerEvent: {}
+[3.595520] (ardurover_hitl) StdoutLine: {'line': b'running develop\n'}
+[3.608395] (-) TimerEvent: {}
+[3.708643] (-) TimerEvent: {}
+[3.808849] (-) TimerEvent: {}
+[3.909066] (-) TimerEvent: {}
+[4.009284] (-) TimerEvent: {}
+[4.109526] (-) TimerEvent: {}
+[4.207967] (ardurover_hitl) StdoutLine: {'line': b'running egg_info\n'}
+[4.208382] (ardurover_hitl) StdoutLine: {'line': b'writing ardurover_hitl.egg-info/PKG-INFO\n'}
+[4.208733] (ardurover_hitl) StdoutLine: {'line': b'writing dependency_links to ardurover_hitl.egg-info/dependency_links.txt\n'}
+[4.209091] (ardurover_hitl) StdoutLine: {'line': b'writing entry points to ardurover_hitl.egg-info/entry_points.txt\n'}
+[4.209224] (ardurover_hitl) StdoutLine: {'line': b'writing requirements to ardurover_hitl.egg-info/requires.txt\n'}
+[4.209435] (ardurover_hitl) StdoutLine: {'line': b'writing top-level names to ardurover_hitl.egg-info/top_level.txt\n'}
+[4.209637] (-) TimerEvent: {}
+[4.212488] (ardurover_hitl) StdoutLine: {'line': b"reading manifest file 'ardurover_hitl.egg-info/SOURCES.txt'\n"}
+[4.234571] (ardurover_hitl) StdoutLine: {'line': b"writing manifest file 'ardurover_hitl.egg-info/SOURCES.txt'\n"}
+[4.237458] (ardurover_hitl) StdoutLine: {'line': b'running build_ext\n'}
+[4.237846] (ardurover_hitl) StdoutLine: {'line': b'Creating /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages/ardurover-hitl.egg-link (link to .)\n'}
+[4.239055] (ardurover_hitl) StdoutLine: {'line': b'Installing hitl script to /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/ardurover_hitl\n'}
+[4.239463] (ardurover_hitl) StdoutLine: {'line': b'\n'}
+[4.239622] (ardurover_hitl) StdoutLine: {'line': b'Installed /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl\n'}
+[4.239726] (ardurover_hitl) StdoutLine: {'line': b'running symlink_data\n'}
+[4.298124] (ardurover_hitl) CommandEnded: {'returncode': 0}
+[4.309817] (-) TimerEvent: {}
+[4.410316] (-) TimerEvent: {}
+[4.476201] (ardurover_hitl) JobEnded: {'identifier': 'ardurover_hitl', 'rc': 0}
+[4.477179] (-) EventReactorShutdown: {}

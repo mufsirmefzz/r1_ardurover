@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing ardurover_hitl.egg-info/PKG-INFO
+writing dependency_links to ardurover_hitl.egg-info/dependency_links.txt
+writing entry points to ardurover_hitl.egg-info/entry_points.txt
+writing requirements to ardurover_hitl.egg-info/requires.txt
+writing top-level names to ardurover_hitl.egg-info/top_level.txt
+reading manifest file 'ardurover_hitl.egg-info/SOURCES.txt'
+writing manifest file 'ardurover_hitl.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages/ardurover-hitl.egg-link (link to .)
+Installing hitl script to /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/ardurover_hitl
+
+Installed /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl
+running symlink_data

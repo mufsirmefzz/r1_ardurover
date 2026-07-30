@@ -1,0 +1,9 @@
+source;share/ardurover_hitl/hook/pythonpath.ps1
+source;share/ardurover_hitl/hook/pythonpath.dsv
+source;share/ardurover_hitl/hook/pythonpath.sh
+source;share/ardurover_hitl/hook/ament_prefix_path.ps1
+source;share/ardurover_hitl/hook/ament_prefix_path.dsv
+source;share/ardurover_hitl/hook/ament_prefix_path.sh
+source;../../build/ardurover_hitl/share/ardurover_hitl/hook/pythonpath_develop.ps1
+source;../../build/ardurover_hitl/share/ardurover_hitl/hook/pythonpath_develop.dsv
+source;../../build/ardurover_hitl/share/ardurover_hitl/hook/pythonpath_develop.sh

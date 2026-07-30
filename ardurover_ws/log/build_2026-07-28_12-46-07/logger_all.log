@@ -1,0 +1,142 @@
+[0.236s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ardurover_hitl', '--symlink-install'][0m
+[0.236s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ardurover_hitl'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7032edf67f70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7032edf679a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7032edf679a0>>)[0m
+[0.814s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/mufsir/Mufsir/IISC/ardurover_ws'
+[0.815s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.817s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.817s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.817s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.840s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.840s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.840s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.840s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.840s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.841s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.841s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.841s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.841s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.841s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.842s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.842s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.842s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.842s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.842s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ardurover_hitl) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ardurover_hitl) by extension 'ignore'
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ardurover_hitl) by extension 'ignore_ament_install'
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ardurover_hitl) by extensions ['colcon_pkg']
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ardurover_hitl) by extension 'colcon_pkg'
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ardurover_hitl) by extensions ['colcon_meta']
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ardurover_hitl) by extension 'colcon_meta'
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ardurover_hitl) by extensions ['ros']
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ardurover_hitl) by extension 'ros'
+[0.854s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ardurover_hitl' with type 'ros.ament_python' and name 'ardurover_hitl'[0m
+[0.854s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hybrid_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.854s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hybrid_navigation) by extension 'ignore'
+[0.854s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hybrid_navigation) by extension 'ignore_ament_install'
+[0.854s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hybrid_navigation) by extensions ['colcon_pkg']
+[0.855s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hybrid_navigation) by extension 'colcon_pkg'
+[0.855s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hybrid_navigation) by extensions ['colcon_meta']
+[0.855s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hybrid_navigation) by extension 'colcon_meta'
+[0.855s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hybrid_navigation) by extensions ['ros']
+[0.855s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hybrid_navigation) by extension 'ros'
+[0.856s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/hybrid_navigation' with type 'ros.ament_python' and name 'hybrid_navigation'[0m
+[0.856s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.856s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.857s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.857s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.857s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.887s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'hybrid_navigation' in 'src/hybrid_navigation'
+[0.887s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.888s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.890s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 4 installed packages in /home/mufsir/gps_nav_ws/install[0m
+[0.893s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 382 installed packages in /opt/ros/humble[0m
+[0.897s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.978s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ardurover_hitl' build argument 'cmake_args' from command line to 'None'
+[0.978s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ardurover_hitl' build argument 'cmake_target' from command line to 'None'
+[0.978s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ardurover_hitl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.979s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ardurover_hitl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.979s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ardurover_hitl' build argument 'cmake_clean_first' from command line to 'False'
+[0.979s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ardurover_hitl' build argument 'cmake_force_configure' from command line to 'False'
+[0.979s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ardurover_hitl' build argument 'ament_cmake_args' from command line to 'None'
+[0.979s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ardurover_hitl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.979s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ardurover_hitl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.979s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ardurover_hitl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl', 'merge_install': False, 'path': '/home/mufsir/Mufsir/IISC/ardurover_ws/src/ardurover_hitl', 'symlink_install': True, 'test_result_base': None}[0m
+[0.979s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.981s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.982s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/mufsir/Mufsir/IISC/ardurover_ws/src/ardurover_hitl' with build type 'ament_python'
+[0.982s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ardurover_hitl', 'ament_prefix_path')
+[0.987s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.987s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ardurover_hitl/hook/ament_prefix_path.ps1'
+[0.988s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ardurover_hitl/hook/ament_prefix_path.dsv'
+[0.989s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ardurover_hitl/hook/ament_prefix_path.sh'
+[0.990s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.991s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.729s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/mufsir/Mufsir/IISC/ardurover_ws/src/ardurover_hitl'
+[1.731s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.731s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.938s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl': PYTHONPATH=/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/build --no-deps symlink_data[0m
+[4.520s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ardurover_hitl', 'pythonpath_develop')
+[4.522s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/share/ardurover_hitl/hook/pythonpath_develop.ps1'
+[4.523s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl' returned '0': PYTHONPATH=/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/build --no-deps symlink_data[0m
+[4.523s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/share/ardurover_hitl/hook/pythonpath_develop.dsv'
+[4.524s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/share/ardurover_hitl/hook/pythonpath_develop.sh'
+[4.528s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl' for CMake module files
+[4.530s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl' for CMake config files
+[4.531s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib'
+[4.532s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/bin'
+[4.532s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/pkgconfig/ardurover_hitl.pc'
+[4.533s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages'
+[4.533s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ardurover_hitl', 'pythonpath')
+[4.533s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ardurover_hitl/hook/pythonpath.ps1'
+[4.535s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ardurover_hitl/hook/pythonpath.dsv'
+[4.536s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ardurover_hitl/hook/pythonpath.sh'
+[4.537s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/bin'
+[4.537s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ardurover_hitl)
+[4.538s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ardurover_hitl/package.ps1'
+[4.540s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ardurover_hitl/package.dsv'
+[4.541s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ardurover_hitl/package.sh'
+[4.543s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ardurover_hitl/package.bash'
+[4.544s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ardurover_hitl/package.zsh'
+[4.546s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/colcon-core/packages/ardurover_hitl)
+[4.547s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[4.547s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[4.547s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[4.547s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[4.557s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.557s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.557s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[4.575s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[4.576s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/mufsir/Mufsir/IISC/ardurover_ws/install/local_setup.ps1'
+[4.578s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/mufsir/Mufsir/IISC/ardurover_ws/install/_local_setup_util_ps1.py'
+[4.581s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/mufsir/Mufsir/IISC/ardurover_ws/install/setup.ps1'
+[4.584s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/mufsir/Mufsir/IISC/ardurover_ws/install/local_setup.sh'
+[4.586s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/mufsir/Mufsir/IISC/ardurover_ws/install/_local_setup_util_sh.py'
+[4.587s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/mufsir/Mufsir/IISC/ardurover_ws/install/setup.sh'
+[4.589s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/mufsir/Mufsir/IISC/ardurover_ws/install/local_setup.bash'
+[4.590s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/mufsir/Mufsir/IISC/ardurover_ws/install/setup.bash'
+[4.592s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/mufsir/Mufsir/IISC/ardurover_ws/install/local_setup.zsh'
+[4.593s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/mufsir/Mufsir/IISC/ardurover_ws/install/setup.zsh'

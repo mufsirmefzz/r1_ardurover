@@ -1,0 +1,3 @@
+[console_scripts]
+hitl = ardurover_hitl.hitl:main
+

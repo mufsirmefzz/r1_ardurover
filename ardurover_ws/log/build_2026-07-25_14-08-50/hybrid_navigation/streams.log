@@ -1,0 +1,33 @@
+[1.984s] Invoking command in '/home/mufsir/Mufsir/IISC/ardurover_ws/src/hybrid_navigation': PYTHONPATH=/home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hybrid_navigation build --build-base /home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/build install --record /home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/install.log --single-version-externally-managed install_data
+[2.337s] running egg_info
+[2.338s] creating ../../build/hybrid_navigation/hybrid_navigation.egg-info
+[2.338s] writing ../../build/hybrid_navigation/hybrid_navigation.egg-info/PKG-INFO
+[2.338s] writing dependency_links to ../../build/hybrid_navigation/hybrid_navigation.egg-info/dependency_links.txt
+[2.338s] writing entry points to ../../build/hybrid_navigation/hybrid_navigation.egg-info/entry_points.txt
+[2.338s] writing requirements to ../../build/hybrid_navigation/hybrid_navigation.egg-info/requires.txt
+[2.338s] writing top-level names to ../../build/hybrid_navigation/hybrid_navigation.egg-info/top_level.txt
+[2.338s] writing manifest file '../../build/hybrid_navigation/hybrid_navigation.egg-info/SOURCES.txt'
+[2.340s] reading manifest file '../../build/hybrid_navigation/hybrid_navigation.egg-info/SOURCES.txt'
+[2.341s] writing manifest file '../../build/hybrid_navigation/hybrid_navigation.egg-info/SOURCES.txt'
+[2.341s] running build
+[2.341s] running build_py
+[2.342s] creating /home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/build
+[2.342s] creating /home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/build/lib
+[2.342s] creating /home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/build/lib/hybrid_navigation
+[2.342s] copying hybrid_navigation/__init__.py -> /home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/build/lib/hybrid_navigation
+[2.342s] running install
+[2.342s] running install_lib
+[2.343s] creating /home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/lib/python3.10/site-packages/hybrid_navigation
+[2.343s] copying /home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/build/lib/hybrid_navigation/__init__.py -> /home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/lib/python3.10/site-packages/hybrid_navigation
+[2.343s] byte-compiling /home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/lib/python3.10/site-packages/hybrid_navigation/__init__.py to __init__.cpython-310.pyc
+[2.344s] running install_data
+[2.344s] creating /home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/share/ament_index
+[2.344s] creating /home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/share/ament_index/resource_index
+[2.344s] creating /home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/share/ament_index/resource_index/packages
+[2.344s] copying resource/hybrid_navigation -> /home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/share/ament_index/resource_index/packages
+[2.344s] copying package.xml -> /home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/share/hybrid_navigation
+[2.344s] running install_egg_info
+[2.346s] Copying ../../build/hybrid_navigation/hybrid_navigation.egg-info to /home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/lib/python3.10/site-packages/hybrid_navigation-0.0.0-py3.10.egg-info
+[2.347s] running install_scripts
+[2.366s] writing list of installed files to '/home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/install.log'
+[2.495s] Invoked command in '/home/mufsir/Mufsir/IISC/ardurover_ws/src/hybrid_navigation' returned '0': PYTHONPATH=/home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hybrid_navigation build --build-base /home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/build install --record /home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/install.log --single-version-externally-managed install_data

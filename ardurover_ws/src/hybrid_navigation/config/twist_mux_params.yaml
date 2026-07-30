@@ -1,0 +1,21 @@
+twist_mux:
+  ros__parameters:
+    topics:
+      navigation:
+        topic: /cmd_vel_nav2
+        timeout: 0.5
+        priority: 10
+      ardupilot:
+        topic: /cmd_vel_ardupilot
+        timeout: 0.5
+        priority: 1
+
+    # BUG-L1 FIX: Added a locks section so the hybrid_executive node can
+    # actively suppress the lower-priority /cmd_vel_ardupilot source while
+    # Nav2 avoidance is running. The hybrid_executive publishes std_msgs/Bool
+    # True to /nav2_lock to engage the lock, and False to release it.
+    locks:
+      nav2_active:
+        topic: /nav2_lock
+        timeout: 0.0
+        priority: 10

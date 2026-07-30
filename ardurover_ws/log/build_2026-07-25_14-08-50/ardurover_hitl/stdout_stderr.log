@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/ardurover_hitl/ardurover_hitl.egg-info
+writing ../../build/ardurover_hitl/ardurover_hitl.egg-info/PKG-INFO
+writing dependency_links to ../../build/ardurover_hitl/ardurover_hitl.egg-info/dependency_links.txt
+writing entry points to ../../build/ardurover_hitl/ardurover_hitl.egg-info/entry_points.txt
+writing requirements to ../../build/ardurover_hitl/ardurover_hitl.egg-info/requires.txt
+writing top-level names to ../../build/ardurover_hitl/ardurover_hitl.egg-info/top_level.txt
+writing manifest file '../../build/ardurover_hitl/ardurover_hitl.egg-info/SOURCES.txt'
+reading manifest file '../../build/ardurover_hitl/ardurover_hitl.egg-info/SOURCES.txt'
+writing manifest file '../../build/ardurover_hitl/ardurover_hitl.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/build
+creating /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/build/lib
+creating /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/build/lib/ardurover_hitl
+copying ardurover_hitl/__init__.py -> /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/build/lib/ardurover_hitl
+running install
+running install_lib
+creating /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages/ardurover_hitl
+copying /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/build/lib/ardurover_hitl/__init__.py -> /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages/ardurover_hitl
+byte-compiling /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages/ardurover_hitl/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ament_index
+creating /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ament_index/resource_index
+creating /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ament_index/resource_index/packages
+copying resource/ardurover_hitl -> /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ament_index/resource_index/packages
+copying package.xml -> /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ardurover_hitl
+running install_egg_info
+Copying ../../build/ardurover_hitl/ardurover_hitl.egg-info to /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages/ardurover_hitl-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/install.log'

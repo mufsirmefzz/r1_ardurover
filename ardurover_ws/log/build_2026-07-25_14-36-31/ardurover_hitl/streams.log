@@ -1,0 +1,18 @@
+[1.269s] Invoking command in '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl': PYTHONPATH=/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/build --no-deps symlink_data --force
+[1.667s] running develop
+[1.980s] running egg_info
+[1.981s] writing ardurover_hitl.egg-info/PKG-INFO
+[1.981s] writing dependency_links to ardurover_hitl.egg-info/dependency_links.txt
+[1.981s] writing entry points to ardurover_hitl.egg-info/entry_points.txt
+[1.981s] writing requirements to ardurover_hitl.egg-info/requires.txt
+[1.981s] writing top-level names to ardurover_hitl.egg-info/top_level.txt
+[1.983s] reading manifest file 'ardurover_hitl.egg-info/SOURCES.txt'
+[1.984s] writing manifest file 'ardurover_hitl.egg-info/SOURCES.txt'
+[1.985s] running build_ext
+[1.985s] Creating /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages/ardurover-hitl.egg-link (link to .)
+[1.986s] 
+[1.986s] Installed /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl
+[1.986s] running symlink_data
+[1.986s] symbolically linking /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/resource/ardurover_hitl -> /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ament_index/resource_index/packages
+[1.986s] symbolically linking /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/package.xml -> /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/share/ardurover_hitl
+[2.033s] Invoked command in '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl' returned '0': PYTHONPATH=/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/build --no-deps symlink_data --force

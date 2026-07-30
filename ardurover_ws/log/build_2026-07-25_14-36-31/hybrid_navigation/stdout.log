@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing hybrid_navigation.egg-info/PKG-INFO
+writing dependency_links to hybrid_navigation.egg-info/dependency_links.txt
+writing entry points to hybrid_navigation.egg-info/entry_points.txt
+writing requirements to hybrid_navigation.egg-info/requires.txt
+writing top-level names to hybrid_navigation.egg-info/top_level.txt
+reading manifest file 'hybrid_navigation.egg-info/SOURCES.txt'
+writing manifest file 'hybrid_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/lib/python3.10/site-packages/hybrid-navigation.egg-link (link to .)
+
+Installed /home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation
+running symlink_data
+symbolically linking /home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/resource/hybrid_navigation -> /home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/share/ament_index/resource_index/packages
+symbolically linking /home/mufsir/Mufsir/IISC/ardurover_ws/build/hybrid_navigation/package.xml -> /home/mufsir/Mufsir/IISC/ardurover_ws/install/hybrid_navigation/share/hybrid_navigation

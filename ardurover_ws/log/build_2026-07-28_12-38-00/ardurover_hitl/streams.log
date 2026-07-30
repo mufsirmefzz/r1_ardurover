@@ -1,0 +1,17 @@
+[1.725s] Invoking command in '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl': PYTHONPATH=/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/build --no-deps symlink_data
+[2.405s] running develop
+[3.001s] running egg_info
+[3.002s] writing ardurover_hitl.egg-info/PKG-INFO
+[3.003s] writing dependency_links to ardurover_hitl.egg-info/dependency_links.txt
+[3.003s] writing entry points to ardurover_hitl.egg-info/entry_points.txt
+[3.004s] writing requirements to ardurover_hitl.egg-info/requires.txt
+[3.004s] writing top-level names to ardurover_hitl.egg-info/top_level.txt
+[3.009s] reading manifest file 'ardurover_hitl.egg-info/SOURCES.txt'
+[3.010s] writing manifest file 'ardurover_hitl.egg-info/SOURCES.txt'
+[3.013s] running build_ext
+[3.013s] Creating /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages/ardurover-hitl.egg-link (link to .)
+[3.014s] Installing hitl script to /home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/ardurover_hitl
+[3.015s] 
+[3.015s] Installed /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl
+[3.015s] running symlink_data
+[3.092s] Invoked command in '/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl' returned '0': PYTHONPATH=/home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mufsir/Mufsir/IISC/ardurover_ws/install/ardurover_hitl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mufsir/Mufsir/IISC/ardurover_ws/build/ardurover_hitl/build --no-deps symlink_data

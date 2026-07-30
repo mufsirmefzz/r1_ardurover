@@ -1,0 +1,30 @@
+===================================================================================================================================================================
+ssh r1a004@<ROVER_IP>
+
+Terminal 1:Publish the GPS Data and Heading of the Rover after this run /gps/fix and /gps/heading will appear
+cd ArduRover_Waypoint
+python3 gps_with_heading.py
+
+Terminal 2:Make the Ardurover firmware Active 
+cd ~/ardupilot
+./build/sitl/bin/ardurover --model JSON:127.0.0.1 -I0 --serial1=udpclient:<SYSTEM_IP>:14550
+
+Terminal 3:Run the Lidar Active after this run /scan topic appears
+ros2 launch rplidar_ros rplidar_s2_launch.py
+
+
+Terminal 4:Hardware Loop Connection with Ardurover 
+cd ardurover_ws
+colcon build --symlink-install
+source install/setup.bash  
+ros2 run ardurover_hitl hitl   --mavlink-url tcp:127.0.0.1:5760   --imu-topic /raw   --gps-topic /gps/fix   --odom-topic /r1a004/wheel_odom   --cmd-vel-topic /cmd_vel_ardupilot   --left-channel 1   --right-channel 3   --heading-topic /gps/heading
+ 
+Terminal 5:Hybdrid Navigation Nav2 Obstacle Avoidance Perform
+cd ardurover_ws
+colcon build --symlink-install
+source install/setup.bash 
+ros2 launch hybrid_navigation hybrid_nav.launch.py
+
+source install/setup.bash
+ros2 launch hybrid_navigation hybrid_nav.launch.py
+  

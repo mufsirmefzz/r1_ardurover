@@ -1,0 +1,9 @@
+source;share/hybrid_navigation/hook/pythonpath.ps1
+source;share/hybrid_navigation/hook/pythonpath.dsv
+source;share/hybrid_navigation/hook/pythonpath.sh
+source;share/hybrid_navigation/hook/ament_prefix_path.ps1
+source;share/hybrid_navigation/hook/ament_prefix_path.dsv
+source;share/hybrid_navigation/hook/ament_prefix_path.sh
+source;../../build/hybrid_navigation/share/hybrid_navigation/hook/pythonpath_develop.ps1
+source;../../build/hybrid_navigation/share/hybrid_navigation/hook/pythonpath_develop.dsv
+source;../../build/hybrid_navigation/share/hybrid_navigation/hook/pythonpath_develop.sh
