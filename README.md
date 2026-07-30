@@ -144,6 +144,7 @@ source install/setup.bash
 ros2 run ardurover_hitl hitl --mavlink-url tcp:127.0.0.1:5760 --imu-topic /raw --gps-topic /gps/fix --odom-topic /r1a004/wheel_odom --cmd-vel-topic /cmd_vel_ardupilot --left-channel 1 --right-channel 3 --heading-topic /gps/heading
 ```
 *Note:* After this connection is established, we can connect the Rover using Mavlink with GCS (QGroundControl / MissionPlanner) using a UDP connection.
+*Verification:* Manually roll, pitch, and yaw the rover to verify that the IMU movements are correctly reflected in Mission Planner.
 
 ### Terminal 5: Hybrid Navigation Nav2 Obstacle Avoidance Perform
 **Description:** Builds the workspace and launches the local EKF odometry filter, `twist_mux`, Nav2 stack, `cmd_vel` EMA smoother, static TF publisher (`base_link` -> `laser`), and the Hybrid Executive node for automatic mode switching (AUTO <-> HOLD) and obstacle avoidance.
