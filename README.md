@@ -81,7 +81,7 @@ source ~/.profile
 ```bash
 ls -l ~/ardupilot/build/sitl/bin/ardurover
 ```
-
+If the ardurover binary is present, it verifies that the compilation was successful.
 ### Configure Serial Port Permissions
 ```bash
 sudo usermod -a -G dialout $USER
