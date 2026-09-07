@@ -162,7 +162,7 @@ ros2 launch hybrid_navigation hybrid_nav.launch.py
 * Arm the Rover Using Mission Planner.
 * Change the mode into `AUTO` in Mission Planner.
 
-![App Demo](r1_ardurover/Workflow_Demo.gif)
+![App Demo](ardurover_ws/Workflow_Demo.gif)
 
 ## Working Principle
 The Rover moves to the Mission Waypoints by using ArduRover, producing PWM Values. If an obstacle is present within 1m of the Rover, the ArduRover mode changes into `HOLD` mode and the Rover control is taken over by Nav2. It will set a local goal 2m in front of the rover, and the rover will move to the goal while avoiding the obstacle. After the local goal is reached, the ArduRover mode changes back into `AUTO` and continues the mission until it is complete.
